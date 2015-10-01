@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BDFC4901BBD718C007CEF7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDFC48F1BBD718C007CEF7C /* AppDelegate.swift */; };
+		7BDFC4921BBD718C007CEF7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDFC4911BBD718C007CEF7C /* ViewController.swift */; };
+		7BDFC4951BBD718C007CEF7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDFC4931BBD718C007CEF7C /* Main.storyboard */; };
+		7BDFC4981BBD718C007CEF7C /* KeyboardAvoiding_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BDFC4961BBD718C007CEF7C /* KeyboardAvoiding_Test.xcdatamodeld */; };
+		7BDFC49A1BBD718C007CEF7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BDFC4991BBD718C007CEF7C /* Assets.xcassets */; };
+		7BDFC49D1BBD718C007CEF7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDFC49B1BBD718C007CEF7C /* LaunchScreen.storyboard */; };
+		7BDFC4A81BBD718C007CEF7C /* KeyboardAvoiding_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDFC4A71BBD718C007CEF7C /* KeyboardAvoiding_TestTests.swift */; };
+		7BDFC4B31BBD718C007CEF7C /* KeyboardAvoiding_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDFC4B21BBD718C007CEF7C /* KeyboardAvoiding_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BDFC4A41BBD718C007CEF7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BDFC4841BBD718C007CEF7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BDFC48B1BBD718C007CEF7C;
+			remoteInfo = "KeyboardAvoiding-Test";
+		};
+		7BDFC4AF1BBD718C007CEF7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BDFC4841BBD718C007CEF7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BDFC48B1BBD718C007CEF7C;
+			remoteInfo = "KeyboardAvoiding-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BDFC48C1BBD718C007CEF7C /* KeyboardAvoiding-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KeyboardAvoiding-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDFC48F1BBD718C007CEF7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BDFC4911BBD718C007CEF7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BDFC4941BBD718C007CEF7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BDFC4971BBD718C007CEF7C /* KeyboardAvoiding_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeyboardAvoiding_Test.xcdatamodel; sourceTree = "<group>"; };
+		7BDFC4991BBD718C007CEF7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BDFC49C1BBD718C007CEF7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BDFC49E1BBD718C007CEF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BDFC4A31BBD718C007CEF7C /* KeyboardAvoiding-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KeyboardAvoiding-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDFC4A71BBD718C007CEF7C /* KeyboardAvoiding_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoiding_TestTests.swift; sourceTree = "<group>"; };
+		7BDFC4A91BBD718C007CEF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BDFC4AE1BBD718C007CEF7C /* KeyboardAvoiding-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KeyboardAvoiding-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDFC4B21BBD718C007CEF7C /* KeyboardAvoiding_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoiding_TestUITests.swift; sourceTree = "<group>"; };
+		7BDFC4B41BBD718C007CEF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BDFC4891BBD718C007CEF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDFC4A01BBD718C007CEF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDFC4AB1BBD718C007CEF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BDFC4831BBD718C007CEF7C = {
+			isa = PBXGroup;
+			children = (
+				7BDFC48E1BBD718C007CEF7C /* KeyboardAvoiding-Test */,
+				7BDFC4A61BBD718C007CEF7C /* KeyboardAvoiding-TestTests */,
+				7BDFC4B11BBD718C007CEF7C /* KeyboardAvoiding-TestUITests */,
+				7BDFC48D1BBD718C007CEF7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BDFC48D1BBD718C007CEF7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BDFC48C1BBD718C007CEF7C /* KeyboardAvoiding-Test.app */,
+				7BDFC4A31BBD718C007CEF7C /* KeyboardAvoiding-TestTests.xctest */,
+				7BDFC4AE1BBD718C007CEF7C /* KeyboardAvoiding-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BDFC48E1BBD718C007CEF7C /* KeyboardAvoiding-Test */ = {
+			isa = PBXGroup;
+			children = (
+				7BDFC48F1BBD718C007CEF7C /* AppDelegate.swift */,
+				7BDFC4911BBD718C007CEF7C /* ViewController.swift */,
+				7BDFC4931BBD718C007CEF7C /* Main.storyboard */,
+				7BDFC4991BBD718C007CEF7C /* Assets.xcassets */,
+				7BDFC49B1BBD718C007CEF7C /* LaunchScreen.storyboard */,
+				7BDFC49E1BBD718C007CEF7C /* Info.plist */,
+				7BDFC4961BBD718C007CEF7C /* KeyboardAvoiding_Test.xcdatamodeld */,
+			);
+			path = "KeyboardAvoiding-Test";
+			sourceTree = "<group>";
+		};
+		7BDFC4A61BBD718C007CEF7C /* KeyboardAvoiding-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BDFC4A71BBD718C007CEF7C /* KeyboardAvoiding_TestTests.swift */,
+				7BDFC4A91BBD718C007CEF7C /* Info.plist */,
+			);
+			path = "KeyboardAvoiding-TestTests";
+			sourceTree = "<group>";
+		};
+		7BDFC4B11BBD718C007CEF7C /* KeyboardAvoiding-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BDFC4B21BBD718C007CEF7C /* KeyboardAvoiding_TestUITests.swift */,
+				7BDFC4B41BBD718C007CEF7C /* Info.plist */,
+			);
+			path = "KeyboardAvoiding-TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BDFC48B1BBD718C007CEF7C /* KeyboardAvoiding-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDFC4B71BBD718C007CEF7C /* Build configuration list for PBXNativeTarget "KeyboardAvoiding-Test" */;
+			buildPhases = (
+				7BDFC4881BBD718C007CEF7C /* Sources */,
+				7BDFC4891BBD718C007CEF7C /* Frameworks */,
+				7BDFC48A1BBD718C007CEF7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KeyboardAvoiding-Test";
+			productName = "KeyboardAvoiding-Test";
+			productReference = 7BDFC48C1BBD718C007CEF7C /* KeyboardAvoiding-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BDFC4A21BBD718C007CEF7C /* KeyboardAvoiding-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDFC4BA1BBD718C007CEF7C /* Build configuration list for PBXNativeTarget "KeyboardAvoiding-TestTests" */;
+			buildPhases = (
+				7BDFC49F1BBD718C007CEF7C /* Sources */,
+				7BDFC4A01BBD718C007CEF7C /* Frameworks */,
+				7BDFC4A11BBD718C007CEF7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BDFC4A51BBD718C007CEF7C /* PBXTargetDependency */,
+			);
+			name = "KeyboardAvoiding-TestTests";
+			productName = "KeyboardAvoiding-TestTests";
+			productReference = 7BDFC4A31BBD718C007CEF7C /* KeyboardAvoiding-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BDFC4AD1BBD718C007CEF7C /* KeyboardAvoiding-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDFC4BD1BBD718C007CEF7C /* Build configuration list for PBXNativeTarget "KeyboardAvoiding-TestUITests" */;
+			buildPhases = (
+				7BDFC4AA1BBD718C007CEF7C /* Sources */,
+				7BDFC4AB1BBD718C007CEF7C /* Frameworks */,
+				7BDFC4AC1BBD718C007CEF7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BDFC4B01BBD718C007CEF7C /* PBXTargetDependency */,
+			);
+			name = "KeyboardAvoiding-TestUITests";
+			productName = "KeyboardAvoiding-TestUITests";
+			productReference = 7BDFC4AE1BBD718C007CEF7C /* KeyboardAvoiding-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BDFC4841BBD718C007CEF7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "mitchell hudson";
+				TargetAttributes = {
+					7BDFC48B1BBD718C007CEF7C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					7BDFC4A21BBD718C007CEF7C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7BDFC48B1BBD718C007CEF7C;
+					};
+					7BDFC4AD1BBD718C007CEF7C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7BDFC48B1BBD718C007CEF7C;
+					};
+				};
+			};
+			buildConfigurationList = 7BDFC4871BBD718C007CEF7C /* Build configuration list for PBXProject "KeyboardAvoiding-Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BDFC4831BBD718C007CEF7C;
+			productRefGroup = 7BDFC48D1BBD718C007CEF7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BDFC48B1BBD718C007CEF7C /* KeyboardAvoiding-Test */,
+				7BDFC4A21BBD718C007CEF7C /* KeyboardAvoiding-TestTests */,
+				7BDFC4AD1BBD718C007CEF7C /* KeyboardAvoiding-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BDFC48A1BBD718C007CEF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDFC49D1BBD718C007CEF7C /* LaunchScreen.storyboard in Resources */,
+				7BDFC49A1BBD718C007CEF7C /* Assets.xcassets in Resources */,
+				7BDFC4951BBD718C007CEF7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDFC4A11BBD718C007CEF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDFC4AC1BBD718C007CEF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BDFC4881BBD718C007CEF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDFC4981BBD718C007CEF7C /* KeyboardAvoiding_Test.xcdatamodeld in Sources */,
+				7BDFC4921BBD718C007CEF7C /* ViewController.swift in Sources */,
+				7BDFC4901BBD718C007CEF7C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDFC49F1BBD718C007CEF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDFC4A81BBD718C007CEF7C /* KeyboardAvoiding_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDFC4AA1BBD718C007CEF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDFC4B31BBD718C007CEF7C /* KeyboardAvoiding_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BDFC4A51BBD718C007CEF7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BDFC48B1BBD718C007CEF7C /* KeyboardAvoiding-Test */;
+			targetProxy = 7BDFC4A41BBD718C007CEF7C /* PBXContainerItemProxy */;
+		};
+		7BDFC4B01BBD718C007CEF7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BDFC48B1BBD718C007CEF7C /* KeyboardAvoiding-Test */;
+			targetProxy = 7BDFC4AF1BBD718C007CEF7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BDFC4931BBD718C007CEF7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BDFC4941BBD718C007CEF7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BDFC49B1BBD718C007CEF7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BDFC49C1BBD718C007CEF7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BDFC4B51BBD718C007CEF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BDFC4B61BBD718C007CEF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BDFC4B81BBD718C007CEF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KeyboardAvoiding-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.KeyboardAvoiding-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BDFC4B91BBD718C007CEF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KeyboardAvoiding-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.KeyboardAvoiding-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BDFC4BB1BBD718C007CEF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "KeyboardAvoiding-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.KeyboardAvoiding-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardAvoiding-Test.app/KeyboardAvoiding-Test";
+			};
+			name = Debug;
+		};
+		7BDFC4BC1BBD718C007CEF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "KeyboardAvoiding-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.KeyboardAvoiding-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardAvoiding-Test.app/KeyboardAvoiding-Test";
+			};
+			name = Release;
+		};
+		7BDFC4BE1BBD718C007CEF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "KeyboardAvoiding-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.KeyboardAvoiding-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "KeyboardAvoiding-Test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7BDFC4BF1BBD718C007CEF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "KeyboardAvoiding-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.KeyboardAvoiding-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "KeyboardAvoiding-Test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BDFC4871BBD718C007CEF7C /* Build configuration list for PBXProject "KeyboardAvoiding-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDFC4B51BBD718C007CEF7C /* Debug */,
+				7BDFC4B61BBD718C007CEF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDFC4B71BBD718C007CEF7C /* Build configuration list for PBXNativeTarget "KeyboardAvoiding-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDFC4B81BBD718C007CEF7C /* Debug */,
+				7BDFC4B91BBD718C007CEF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BDFC4BA1BBD718C007CEF7C /* Build configuration list for PBXNativeTarget "KeyboardAvoiding-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDFC4BB1BBD718C007CEF7C /* Debug */,
+				7BDFC4BC1BBD718C007CEF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BDFC4BD1BBD718C007CEF7C /* Build configuration list for PBXNativeTarget "KeyboardAvoiding-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDFC4BE1BBD718C007CEF7C /* Debug */,
+				7BDFC4BF1BBD718C007CEF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7BDFC4961BBD718C007CEF7C /* KeyboardAvoiding_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7BDFC4971BBD718C007CEF7C /* KeyboardAvoiding_Test.xcdatamodel */,
+			);
+			currentVersion = 7BDFC4971BBD718C007CEF7C /* KeyboardAvoiding_Test.xcdatamodel */;
+			path = KeyboardAvoiding_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7BDFC4841BBD718C007CEF7C /* Project object */;
+}
